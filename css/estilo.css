@@ -1,11 +1,13 @@
+
+
 main {
 Width: 100%;
-Height: 100%;
+Height: 95vh;
 Display: block;
 Margin: 0;
 Float: none;
 Position: fixed;
-Top: 0;
+Top: 5vh;
 Left: 0;
 Z-index: 999;
 }
@@ -38,10 +40,19 @@ main section#zona-infografia figure div.caja-info{
 }
 
 main section#zona-infografia figure div.caja-info#caja-01{
-width: 300px;
-height: 450px;
-top: 190px;
-left:438px;
+  width: 300px;
+  height: 450px;
+  top: 190px;
+  left:438px;
+}
+
+main section#zona-infografia figure div.caja-info#caja-01 div.info-interna{
+  width: 350px;
+  height: 170px;
+  top: -154px;
+  right: 252px;
+  /* display: block!important;*/
+  
 }
 
 main section#zona-infografia figure div.caja-info#caja-02{
@@ -49,6 +60,15 @@ main section#zona-infografia figure div.caja-info#caja-02{
   height: 450px;
   top: 228px;
   right:34px;
+}
+
+main section#zona-infografia figure div.caja-info#caja-02 div.info-interna{
+  width: 350px;
+  height: 170px;
+  top: -162px;
+  right: 123px;
+  /* display: block!important;*/
+  
 }
 
 main section#zona-infografia figure div.caja-info#caja-03{
@@ -119,6 +139,10 @@ main section#zona-infografia figure div.caja-info a:hover{
 
 
 main section#zona-infografia figure div.caja-info div.info-interna{
-  display:block;
+  display:none;
+  margin:0;
+  float: none;
+  position: absolute;
+  background: #f9f9f9;
+  border-radius:10px;
 }
-
