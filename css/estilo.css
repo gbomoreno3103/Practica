@@ -36,8 +36,6 @@ main section#zona-infografia figure div.caja-info{
   margin: 0;
   float: none;
   position: absolute;
-  background: #f9f9f9;
-  
 }
 
 main section#zona-infografia figure div.caja-info#caja-01{
@@ -48,11 +46,70 @@ left:438px;
 }
 
 main section#zona-infografia figure div.caja-info#caja-02{
-width: 300px;
+	width: 300px;
 height: 450px;
 top: 228px;
 left:24px;
 }
+
+main section#zona-infografia figure div.caja-info#caja-03{
+}
+
+main section#zona-infografia figure div.caja-info#caja-04{
+}
+
+main section#zona-infografia figure div.caja-info#caja-05{
+}
+
+@keyframes animacion-puntos {
+  0% {background: #09f; color: #fff; transform: scale(1);}
+  50% {background: #000; color: #09f; transform: scale(1);}
+  100% {background: #09f; color: #fff; transform: scale(1);}
+}
+
+
+main section#zona-infografia figure div.caja-info a{
+  width: 30px;
+  height: auto;
+  display: block;
+  margin: 0;
+  float: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index:50;
+  font-size:1.5em;
+  line-height: 1em;
+  text-align: center;
+  /* color: #fff; */
+  /* background: #09f; */
+  font-weight: 500;
+  text-decoration: none;
+  padding: 2px 0 4px;
+  border-radius: 50%;
+  transition: all 0.3s ease-in;
+  animation-name: animacion-puntos;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-direction:alternate;
+  animation-play-state: running;
+  animation-timing-function: ease-out;
+}
+
+main section#zona-infografia figure div.caja-info a:hover{
+  color: #09f;
+  background: #000;
+  font-weight: 500;
+  transition: all 0.3s ease-in;
+}
+
+
+
+main section#zona-infografia figure div.caja-info div.info-interna{
+  display:none;
+}
+
+
 
 
 
