@@ -18,7 +18,7 @@ Display: block;
 Margin: 0;
 Float: none;
 Position: relative;
-Background: url('https://github.com/gbomoreno3103/Practica/blob/main/archivos/gibon.png') no-repeat top center;
+Background: url('../archivos/gibon.png') no-repeat top center;
 Background-size: cover;
 }
 
