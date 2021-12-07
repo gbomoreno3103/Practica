@@ -9,7 +9,9 @@ Position: fixed;
 Top: 0;
 Left: 0;
 Z-index: 999;
-Background: #333;
+Background: url('../archivos/gibon.png') no-repeat top center;  
+Background-size: cover;
+
 }
 
 main section #zona-infografia {
