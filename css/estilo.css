@@ -11,7 +11,7 @@ Left: 0;
 Z-index: 999;
 }
 
-main section #zona-infografia {
+main section#zona-infografia {
 Width:1100px;
 Height: 700px;
 Display: block;
@@ -22,7 +22,7 @@ Background: url('https://github.com/gbomoreno3103/Practica/blob/main/archivos/gi
 Background-size: cover;
 }
 
-main section #zona-infografia figure {
+main section#zona-infografia figure {
 Width:100%;
 Height: 700px;
 Display: block;
