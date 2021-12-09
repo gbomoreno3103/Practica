@@ -22,8 +22,11 @@ Display: block;
 Margin: 0;
 Float: none;
 Position: relative;
-Background: url('../archivos/gibon.png') no-repeat top center;
-Background-size: cover;
+Background: url('../archivos/gibon.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 main section#zona-infografia figure {
