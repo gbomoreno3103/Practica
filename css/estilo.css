@@ -16,17 +16,17 @@ Z-index: 999;
 }
 
 main section#zona-infografia {
-Width:1100px;
-Height: 700px;
+/*Width:1100px;
+Height: 700px;*/
 Display: block;
 Margin: 0;
 Float: none;
 Position: relative;
 Background: url('../archivos/gibon.png') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
+    width: 2000;
+    height: 2000;
+    transform: matrix(0.5, 0, 0, 0.5, 0, 0);
 }
 
 main section#zona-infografia figure {
